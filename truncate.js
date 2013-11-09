@@ -31,8 +31,8 @@ function occurrences(string, subString, allowOverlapping){
 		var defaults = {
 			maxLength: 300,
 			ellipsis: ' ...',
-			morelink: '<button class="morelink">more</button>',
-			lesslink: '<button class="lesslink">less</button>',
+			morelink: '<a class="morelink">more</a>',
+			lesslink: '<a class="lesslink">less</a>',
 			morelinkClass: '.morelink',
 			lesslinkClass: '.lesslink'
 		}
