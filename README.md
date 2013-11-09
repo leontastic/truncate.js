@@ -89,6 +89,25 @@ $('.some-class').truncate({
 );
 ```
 
-## Authors
+## Support
+
+Truncate.js can only work with the following:
+
+* Can truncate text and inline tags nested in ```<p>```
+* Can truncate text while protecting inline ```<a>``` tags from splicing
+
+As the project develops, additional tags and options will be supported.
+
+## Contributing
+
+If you are interested in contributing to this project, drop me a line at [la2li@uwaterloo.ca](mailto:la2li@uwaterloo.ca).
+
+## Credits
+
+### Authors
 
 [Leon Li](https://github.com/li-cn)
+
+### Thanks To
+
+[Vitim.us](http://stackoverflow.com/users/938822/vitim-us) - truncate.js uses a function he wrote on a [Stack Overflow answer board](http://stackoverflow.com/questions/4009756/).
